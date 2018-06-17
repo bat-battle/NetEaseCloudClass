@@ -1,16 +1,17 @@
-# 基础版socket编程Demo
+# 全面学习网络编程
 
-## 基础准备知识：
-> [计算机网络] 推荐阅读谢希仁的版本
-> [Linux 基础命令]
-> [gcc]
+> 如果你对c语言编程和socket哪怕一窍不通，可能通过阅读这份代码也能基本掌握soket编程的知识
+> 学习没有捷径，唯一的捷径就是不走弯路
 
-## 运行方式
-> gcc -o ser ser.c && gcc -o cli cli.c
+* 判定主机字节序
+	- byteorder
 
-> ./ser
+* 测试listen
+	- testlisten.c
 
-> ./cli 127.0.0.1
-
-## 更多参考
-[Linux SOCKET编程详解](https://www.jianshu.com/p/ca0bbd8700ce)
+* 测试accept
+	- testaccept.c
+	
+* TCP读写测试
+	- testoobrecv.c
+	- testoobsend.c
